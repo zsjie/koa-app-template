@@ -5,7 +5,11 @@
   "author": "zhushijie <zhushijie@jd.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc-watch -p tsconfig.json --onSuccess './dev.sh'"
+    "build": "rm -rf dist/ && tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
+    "dev": "tsc-watch -p tsconfig.json --onSuccess './dev.sh'",
+    "start": "yarn build && node ./dist",
+    "fix": "eslint . --quiet --ext .js,.ts --fix",
+    "lint": "eslint . --quiet --ext .js,.ts && tsc -p ./tsconfig.json --noEmit"
   },
   "dependencies": {
     "koa": "^2.13.1",
