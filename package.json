@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "koa": "^2.13.1",
+    "koa-accesslog": "^1.0.0",
     "koa-joi-router": "^8.0.0"
   },
   "devDependencies": {
