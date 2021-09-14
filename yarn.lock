@@ -141,6 +141,13 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/busboy@*":
+  version "0.2.4"
+  resolved "https://registry.npmjs.org/@types/busboy/-/busboy-0.2.4.tgz#19922f8c7076ad6d47b2565da8c0a94c88776315"
+  integrity sha512-f+ZCVjlcN8JW/zf3iR0GqO4gjOUlltMTtZjn+YR1mlK+MVu6esTiIecO0/GQlmYQPQLdBnc7+5vG3Xb+SkvFLw==
+  dependencies:
+    "@types/node" "*"
+
 "@types/co-body@*":
   version "6.1.0"
   resolved "https://registry.npmjs.org/@types/co-body/-/co-body-6.1.0.tgz#b52625390eb0d113c9b697ea92c3ffae7740cdb9"
@@ -225,11 +232,12 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-joi-router@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.npmjs.org/@types/koa-joi-router/-/koa-joi-router-8.0.1.tgz#3e0257a138c55f0adda20949d0d8b923369a0016"
-  integrity sha512-w38CErymDq1ys2EZeux9IhpBwu03yCBa4tSHV8376Q7KDgpfxI/8jIcsWCk0SH+2XCDyeQJxFfXczomGHxCZOw==
+"@types/koa-joi-router@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.npmjs.org/@types/koa-joi-router/-/koa-joi-router-8.0.2.tgz#dc3d3fe62d8513cb872c55294edb2c1c31891f8e"
+  integrity sha512-MW/Oy64JUgt3Mh87iBIViAm2VTLYBWi5p1dTGEeOyTfwrSWeGIs0YkLLE2rICPhoj1TE1hHVlRLd15bqrUKO3Q==
   dependencies:
+    "@types/busboy" "*"
     "@types/co-body" "*"
     "@types/koa" "*"
     "@types/koa-router" "*"
