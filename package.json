@@ -2,7 +2,7 @@
   "name": "koa-app-template",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "author": "zhushijie <zhushijie@jd.com>",
+  "author": "zhushijie <mrzhushijie@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf dist/ && tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
