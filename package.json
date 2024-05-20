@@ -1,6 +1,7 @@
 {
   "name": "koa-app-template",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/index.ts",
   "author": "zhushijie <mrzhushijie@gmail.com>",
   "license": "MIT",
@@ -17,17 +18,19 @@
     "koa-joi-router": "^8.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "@types/koa": "^2.15.0",
     "@types/koa-joi-router": "^8.0.2",
     "@types/node": "^20.12.12",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
-    "eslint": "^7.32.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint": "^9.3.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
     "source-map-support": "^0.5.19",
     "tsc-watch": "^6.2.0",
     "tscpaths": "^0.0.9",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.9.0"
   },
   "engines": {
     "node": ">=20.12.12"
