@@ -1,4 +1,8 @@
 {
+  "eslint.validate": [
+    "javascript",
+    "typescript", // Enable .ts
+],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   }
