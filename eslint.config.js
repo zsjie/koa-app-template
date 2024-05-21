@@ -14,6 +14,7 @@ export default [
         },
         rules: {
             // override/add rules settings here, such as:
+            indent: ['error', 4],
             'simple-import-sort/imports': 2,
             'linebreak-style': ['error', 'unix'],
             'quotes': ['error', 'single'],
