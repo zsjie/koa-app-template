@@ -12,14 +12,17 @@
     "fix": "eslint --quiet --fix ./src/*",
     "lint": "eslint --quiet ./src/* && tsc -p ./tsconfig.json --noEmit"
   },
+  "resolution": {
+    "@types/koa": "^2.13.4"
+  },
   "dependencies": {
-    "koa": "^2.15.3",
+    "koa": "^2.15.0",
     "koa-accesslog": "^1.0.0",
     "koa-joi-router": "^8.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.3.0",
-    "@types/koa": "^2.15.0",
+    "@types/koa": "^2.13.4",
     "@types/koa-joi-router": "^8.0.2",
     "@types/node": "^20.12.12",
     "@typescript-eslint/parser": "^4.29.2",
