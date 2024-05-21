@@ -12,7 +12,11 @@ export default [
         },
         rules: {
             // override/add rules settings here, such as:
-            "simple-import-sort/imports": 2,
+            'simple-import-sort/imports': 2,
+            'linebreak-style': ['error', 'unix'],
+            'quotes': ['error', 'single'],
+            semi: ['error', 'never'],
+            camelcase: 2,
         },
     },
 ]
