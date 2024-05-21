@@ -29,7 +29,7 @@
     "tsc-watch": "^6.2.0",
     "tscpaths": "^0.0.9",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.9.0"
+    "typescript-eslint": "^7.10.0"
   },
   "engines": {
     "node": ">=20.12.12"

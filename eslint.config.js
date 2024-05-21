@@ -1,7 +1,9 @@
+import eslint from '@eslint/js'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tsEslint from 'typescript-eslint'
 
 export default [
+    eslint.configs.recommended,
     ...tsEslint.configs.recommended,
 
     {
