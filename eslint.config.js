@@ -9,15 +9,14 @@ export default [
     {
         plugins: {
             // add plugins here
-            'simple-import-sort': simpleImportSort
-        
+            'simple-import-sort': simpleImportSort,
         },
         rules: {
             // override/add rules settings here, such as:
             indent: ['error', 4],
             'simple-import-sort/imports': 2,
             'linebreak-style': ['error', 'unix'],
-            'quotes': ['error', 'single'],
+            quotes: ['error', 'single'],
             semi: ['error', 'never'],
             camelcase: 2,
         },
