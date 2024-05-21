@@ -1,9 +1,12 @@
 {
   "eslint.validate": [
     "javascript",
-    "typescript", // Enable .ts
-],
+    "typescript" // Enable .ts
+  ],
+  "editor.tabSize": 4,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  }
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
